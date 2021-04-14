@@ -1,13 +1,13 @@
 import mysql.connector
 
-# conn = mysql.connector.connect(user='root',passwd='BlockPulse2020',db='test',auth_plugin='mysql_native_password')
+# conn = mysql.connector.connect(user='root',passwd='',db='test',auth_plugin='mysql_native_password')
 # cursor = conn.cursor()
 
 '''创建数据库连接'''
 # mydb = mysql.connector.connect(
 #     host = 'localhost',                              # 数据库主机地址
 #     user = 'root',                                   # 数据库用户名
-#     passwd = 'jin410972704',                       # 数据库密码
+#     passwd = '',                       # 数据库密码
 #     auth_plugin = 'mysql_native_password'            # 密码插件改变
 # )
 # print(mydb)
@@ -38,7 +38,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
     host = 'localhost',                              # 数据库主机地址
     user = 'root',                                   # 数据库用户名
-    passwd = 'jin410972704',                       # 数据库密码
+    passwd = '',                       # 数据库密码
     auth_plugin = 'mysql_native_password',            # 密码插件改变
     database = 'runoob_bd'
 )
